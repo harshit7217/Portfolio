@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "Alpha";
+    src: url(Font/Qwitcher_Grypen/QwitcherGrypen-Bold.ttf),url(Font/Qwitcher_Grypen/QwitcherGrypen-Regular.ttf);
+}
+@font-face {
+    font-family: "Designer";
+    src: url(Font/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+* {
+    background-color: rgb(187, 187, 245);
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.navbar {
+    height: 60px;
+    position: relative;
+    right: 0;
+    align-items: center;
+    border: 4px solid black;
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+.navbar,.navbar_image,.navbar_heading {
+    display: flex;
+    background-color: rgb(110, 110, 236);
+    padding: 0;
+    margin: 0;   
+}
+.navbar_image {
+    object-fit: cover;
+}
+.navbar_ul_list {
+    background-color: rgb(110, 110, 236);
+    display: flex;
+    position: absolute;
+    right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar_list {
+    background-color: rgb(110, 110, 236);
+    padding: 2px;
+    margin: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+.navbar_heading {
+    text-shadow: 3px 3px 4px white;
+    font-family: "Designer";
+    font-size: 32px;
+    font-weight: 1100;
+}
+
+/* main */
+.main {
+    display: flex;
+}
+/* image */
+.image_box {
+    padding-left: 5vw;
+    width: 80vw;
+}
+.image {
+    border: 2px solid rgb(118, 165, 192);
+    border-radius: 50%;
+    box-shadow: 6px 2px 6px rgb(166, 209, 235);
+}
+/* heading */
+.main {
+    border-bottom: 3px solid black;
+    margin-top: 0;
+}
+.heading {
+    margin-left: 2vw;
+    font-family: "Designer";
+    padding: 8vw 16vw 1vw 9vw;
+}
+.main_heading {
+    font-size: 3vw;
+    text-shadow: 2px 2px 4px white;
+}
+
+/* intro */
+
+.intro {
+    margin: 0.5vw;
+    padding: 0;
+}
+.heading {
+    display: flex;
+}
+h2 {
+    margin-top: 20px;
+    padding: 2vw;
+    font-family: "Designer";
+    font-weight: 700;
+    font-size: 4vw;
+    text-shadow: 2px 2px 5px white;
+}
+p {
+    padding: 4vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+}
+
+/* Project */
+
+.project {
+    display: contents;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.project h2 {
+    margin-top: 10vw;
+}
+h3 {
+    font-family: "Alpha";
+    font-weight: 700;
+    font-size: 3vw;
+    color: rgb(139, 95, 0);
+}
+.list {
+    list-style-type: none;
+}
+.first_project {
+    margin: 2vw;
+    width:30vw;
+}
+.first_project p {
+    padding: 0;
+    margin: 1vw;
+}
+.first_project h3 {
+    margin: 0;
+    text-align: center;
+}
+.second_project {
+    width: 35vw;
+    margin: 2vw;
+}
+.second_project p {
+    padding: 0;
+    margin: 1vw;
+}
+.second_project h3 {
+    text-align: center;
+}
+
+/* skills */
+.skills {
+    margin: 0;
+    padding: 0;
+}
+.skills h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+.skills_list ul{
+    list-style-type:decimal;
+    margin-left: 8vw;
+}
+
+/* contact us */
+.contact {
+    border: 4px solid black;
+    background-color: rgb(110, 110, 236);
+}
+.contact h2 {
+    background-color: rgb(110, 110, 236);
+}
+.contact p,.contact b,.contact .heading {
+    background-color: rgb(110, 110, 236);
+}
+.contact .heading p b {
+    background-color: rgb(110, 110, 236);
+}
+.heading h2 {
+    padding: 0;
+    margin: 0;
+    padding-right: 20vw;
+}
+.paragraph p {
+    padding: .5vw;
+    margin: 0;
+}
