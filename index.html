@@ -4,80 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <h2>Harshit Chaudhary</h2>
-        <ul>
-          <li>Contact</li>
-          <li>Media</li>
-          <li>Project</li>
-          <li>Resume</li>
-          <li>Resources</li>
-          <li>
+    <header class="nav">
+      <!-- navbar  -->
+      <div class="navbar">
+        <h2 class="navbar_heading">Harshit Chaudhary</h2>
+        <ul class="navbar_ul_list">
+          <li class="navbar_list">Contact</li>
+          <li class="navbar_list">Media</li>
+          <li class="navbar_list">Project</li>
+          <li class="navbar_list">Resume</li>
+          <li class="navbar_list">Resources</li>
+          <li class="navbar_list">
             <a href="harshitchaudhary568@gmail.com"
-              ><img src="Images/mail.svg" alt="gmail" width="14px"
+              ><img
+                src="Images/mail.svg"
+                alt="gmail"
+                width="14px"
+                class="navbar_image"
             /></a>
           </li>
-          <li>
+          <li class="navbar_list">
             <a href="https://x.com/cha84587"
               ><img
                 src="Images/twitter-brands-solid.svg"
                 alt="twitter"
                 width="14px"
+                class="navbar_image"
             /></a>
           </li>
-          <li>
+          <li class="navbar_list">
             <a href="https://www.linkedin.com/in/harshit-chaudhary-9363a62a0/"
               ><img
                 src="Images/linkedin-brands-solid.svg"
                 alt="linkdin"
                 width="14px"
+                class="navbar_image"
             /></a>
           </li>
-          <li>
+          <li class="navbar_list">
             <a href="https://github.com/harshit7217"
               ><img
                 src="Images/github-brands-solid.svg"
                 alt="Github"
                 width="14px"
+                class="navbar_image"
             /></a>
           </li>
         </ul>
       </div>
     </header>
+    <br /><br />
     <main>
       <!-- image and main heading -->
-      <section>
-        <div>
-          <center>
-            <img
-              src="Images/Profile 3.png"
-              alt="HarshitChaudhary"
-              width="300px"
-              height="400px"
-            />
-          </center>
+      <section class="main">
+        <div class="image_box">
+          <img
+            src="Images/Profile 3.png"
+            alt="HarshitChaudhary"
+            width="300px"
+            height="400px"
+            class="image"
+          />
         </div>
-        <div>
-          <center>
-            <h1>
+        <div class="heading">
+            <h1 class="main_heading">
               Pursuing Bachelor of Technology in Computer Science, learning on
               Web Designing, passionate about a career in developer.
             </h1>
-          </center>
         </div>
       </section>
 
       <hr />
       <!-- Intro -->
-      <section>
-        <div>
-          <center>
-            <h2>Intro :</h2>
-          </center>
-          <div>
+      <section class="intro">
+        <div class="heading">
+            <h2>Intro </h2>
+          <div class="para">
             <p>
               Hi, I'm [Your Name], a passionate Computer Science Engineering
               student currently pursuing my BTech. I have a strong foundation in
@@ -94,20 +99,18 @@
         </div>
       </section>
       <!-- Project Section -->
-      <section>
-        <div>
-          <center>
+      <section class="project">
+        <div class="heading">
             <h2>Projects</h2>
-          </center>
-          <div>
-            <ul>
+          <div class="first_project">
+            <ul class="list">
               <li>
                 <a href="https://github.com/harshit7217/Amazon-Clone"
                   ><h3>Amazon Clone</h3></a
                 >
               </li>
             </ul>
-            <div>
+            <div class="paragraph">
               <p>
                 The Amazon clone project is a simple e-commerce website built
                 using HTML and CSS, replicating the design of Amazon's homepage.
@@ -118,16 +121,15 @@
               </p>
             </div>
           </div>
-          <div>
-            <ul>
+          <div  class="second_project">
+            <ul class="list">
               <li>
                 <a href="https://github.com/harshit7217/Library-Frontend"
-                  ><h4>Library Monitoring Websities</h4></a
+                  ><h3>Library Monitoring Websities</h3></a
                 >
               </li>
             </ul>
-          </div>
-          <div>
+          
             <p>
               The Library Monitoring System is a Java-based project designed to
               streamline library operations. It allows users to manage book
@@ -140,13 +142,11 @@
         </div>
       </section>
       <!-- Skills Section -->
-      <section>
-        <div>
-          <center>
+      <section class="skills">
+        <div class="heading">
             <h2>Skills</h2>
-          </center>
-          <div>
-            <ul>
+          <div class="skills_list">
+            <ul class="list">
               <li><h4>C</h4></li>
               <li><h4>Java</h4></li>
               <li><h4>Python</h4></li>
@@ -158,12 +158,10 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <center>
+    <footer class="contact">
+      <div class="heading">
           <h2>Contact Us</h2>
-        </center>
-        <div>
+        <div class="paragraph">
           <p>
             <b
               >If you have any questions or need assistance, feel free to reach
